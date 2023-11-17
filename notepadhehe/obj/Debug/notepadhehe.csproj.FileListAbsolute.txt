@@ -1,0 +1,10 @@
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.csproj.AssemblyReference.cache
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.Form1.resources
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.Properties.Resources.resources
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.csproj.GenerateResource.cache
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.csproj.CoreCompileInputs.cache
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\bin\Debug\notepadhehe.exe.config
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\bin\Debug\notepadhehe.exe
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\bin\Debug\notepadhehe.pdb
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.exe
+C:\Users\Cesar Ian Agujar\source\repos\notepadhehe\notepadhehe\obj\Debug\notepadhehe.pdb
