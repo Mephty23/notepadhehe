@@ -262,5 +262,6 @@ namespace notepadhehe
 
             toolStripStatusLabel1.Text = $"Ln {currentLine}, Col {currentColumn}";
         }
+
     }
 }

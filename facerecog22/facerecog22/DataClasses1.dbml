@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="facerecog" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-5NMC0PG\SQLEXPRESS;Initial Catalog=facerecog;Integrated Security=True" SettingsObjectName="facerecog22.Properties.Settings" SettingsPropertyName="facerecogConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.info" Member="infos">
+    <Type Name="info">
+      <Column Name="fname" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="lname" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.db_save3" Method="db_save3">
+    <Parameter Name="fname" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="lname" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="username" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="pass" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.log_db" Method="log_db">
+    <Parameter Name="username" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="pass" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="log_dbResult">
+      <Column Name="fname" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="lname" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

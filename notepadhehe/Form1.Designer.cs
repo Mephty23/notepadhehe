@@ -30,21 +30,21 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eDITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fORMATToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nEWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oPENToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sAVEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eDITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uNDOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEDOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOPYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pASTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fONTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cOLORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sELECTALLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dATETIMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fORMATToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fONTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cOLORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -78,6 +78,34 @@
             this.fILEToolStripMenuItem.Text = "FILE";
             this.fILEToolStripMenuItem.Click += new System.EventHandler(this.fILEToolStripMenuItem_Click);
             // 
+            // nEWToolStripMenuItem
+            // 
+            this.nEWToolStripMenuItem.Name = "nEWToolStripMenuItem";
+            this.nEWToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.nEWToolStripMenuItem.Text = "NEW          ";
+            this.nEWToolStripMenuItem.Click += new System.EventHandler(this.nEWToolStripMenuItem_Click);
+            // 
+            // oPENToolStripMenuItem
+            // 
+            this.oPENToolStripMenuItem.Name = "oPENToolStripMenuItem";
+            this.oPENToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.oPENToolStripMenuItem.Text = "OPEN         ";
+            this.oPENToolStripMenuItem.Click += new System.EventHandler(this.oPENToolStripMenuItem_Click);
+            // 
+            // sAVEToolStripMenuItem
+            // 
+            this.sAVEToolStripMenuItem.Name = "sAVEToolStripMenuItem";
+            this.sAVEToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.sAVEToolStripMenuItem.Text = "SAVE          ";
+            this.sAVEToolStripMenuItem.Click += new System.EventHandler(this.sAVEToolStripMenuItem_Click);
+            // 
+            // eXITToolStripMenuItem
+            // 
+            this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
+            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.eXITToolStripMenuItem.Text = "EXIT";
+            this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
+            // 
             // eDITToolStripMenuItem
             // 
             this.eDITToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -93,6 +121,55 @@
             this.eDITToolStripMenuItem.Text = "EDIT";
             this.eDITToolStripMenuItem.Click += new System.EventHandler(this.eDITToolStripMenuItem_Click);
             // 
+            // uNDOToolStripMenuItem
+            // 
+            this.uNDOToolStripMenuItem.Name = "uNDOToolStripMenuItem";
+            this.uNDOToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.uNDOToolStripMenuItem.Text = "UNDO         ";
+            this.uNDOToolStripMenuItem.Click += new System.EventHandler(this.uNDOToolStripMenuItem_Click);
+            // 
+            // rEDOToolStripMenuItem
+            // 
+            this.rEDOToolStripMenuItem.Name = "rEDOToolStripMenuItem";
+            this.rEDOToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.rEDOToolStripMenuItem.Text = "REDO          ";
+            this.rEDOToolStripMenuItem.Click += new System.EventHandler(this.rEDOToolStripMenuItem_Click);
+            // 
+            // cOPYToolStripMenuItem
+            // 
+            this.cOPYToolStripMenuItem.Name = "cOPYToolStripMenuItem";
+            this.cOPYToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.cOPYToolStripMenuItem.Text = "COPY           ";
+            this.cOPYToolStripMenuItem.Click += new System.EventHandler(this.cOPYToolStripMenuItem_Click);
+            // 
+            // pASTEToolStripMenuItem
+            // 
+            this.pASTEToolStripMenuItem.Name = "pASTEToolStripMenuItem";
+            this.pASTEToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.pASTEToolStripMenuItem.Text = "PASTE          ";
+            this.pASTEToolStripMenuItem.Click += new System.EventHandler(this.pASTEToolStripMenuItem_Click);
+            // 
+            // cUTToolStripMenuItem
+            // 
+            this.cUTToolStripMenuItem.Name = "cUTToolStripMenuItem";
+            this.cUTToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.cUTToolStripMenuItem.Text = "CUT             ";
+            this.cUTToolStripMenuItem.Click += new System.EventHandler(this.cUTToolStripMenuItem_Click);
+            // 
+            // sELECTALLToolStripMenuItem
+            // 
+            this.sELECTALLToolStripMenuItem.Name = "sELECTALLToolStripMenuItem";
+            this.sELECTALLToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.sELECTALLToolStripMenuItem.Text = "SELECT ALL   ";
+            this.sELECTALLToolStripMenuItem.Click += new System.EventHandler(this.sELECTALLToolStripMenuItem_Click);
+            // 
+            // dATETIMEToolStripMenuItem
+            // 
+            this.dATETIMEToolStripMenuItem.Name = "dATETIMEToolStripMenuItem";
+            this.dATETIMEToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.dATETIMEToolStripMenuItem.Text = "DATE TIME";
+            this.dATETIMEToolStripMenuItem.Click += new System.EventHandler(this.dATETIMEToolStripMenuItem_Click);
+            // 
             // fORMATToolStripMenuItem
             // 
             this.fORMATToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -103,96 +180,19 @@
             this.fORMATToolStripMenuItem.Text = "FORMAT";
             this.fORMATToolStripMenuItem.Click += new System.EventHandler(this.fORMATToolStripMenuItem_Click);
             // 
-            // nEWToolStripMenuItem
-            // 
-            this.nEWToolStripMenuItem.Name = "nEWToolStripMenuItem";
-            this.nEWToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nEWToolStripMenuItem.Text = "NEW          crl + N";
-            this.nEWToolStripMenuItem.Click += new System.EventHandler(this.nEWToolStripMenuItem_Click);
-            // 
-            // oPENToolStripMenuItem
-            // 
-            this.oPENToolStripMenuItem.Name = "oPENToolStripMenuItem";
-            this.oPENToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.oPENToolStripMenuItem.Text = "OPEN         crl +  O";
-            this.oPENToolStripMenuItem.Click += new System.EventHandler(this.oPENToolStripMenuItem_Click);
-            // 
-            // sAVEToolStripMenuItem
-            // 
-            this.sAVEToolStripMenuItem.Name = "sAVEToolStripMenuItem";
-            this.sAVEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sAVEToolStripMenuItem.Text = "SAVE          crl + S";
-            this.sAVEToolStripMenuItem.Click += new System.EventHandler(this.sAVEToolStripMenuItem_Click);
-            // 
-            // eXITToolStripMenuItem
-            // 
-            this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
-            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eXITToolStripMenuItem.Text = "EXIT";
-            this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
-            // 
-            // uNDOToolStripMenuItem
-            // 
-            this.uNDOToolStripMenuItem.Name = "uNDOToolStripMenuItem";
-            this.uNDOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.uNDOToolStripMenuItem.Text = "UNDO         crt + Z";
-            this.uNDOToolStripMenuItem.Click += new System.EventHandler(this.uNDOToolStripMenuItem_Click);
-            // 
-            // rEDOToolStripMenuItem
-            // 
-            this.rEDOToolStripMenuItem.Name = "rEDOToolStripMenuItem";
-            this.rEDOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rEDOToolStripMenuItem.Text = "REDO          crt + R";
-            this.rEDOToolStripMenuItem.Click += new System.EventHandler(this.rEDOToolStripMenuItem_Click);
-            // 
-            // cOPYToolStripMenuItem
-            // 
-            this.cOPYToolStripMenuItem.Name = "cOPYToolStripMenuItem";
-            this.cOPYToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cOPYToolStripMenuItem.Text = "COPY           crt + C";
-            this.cOPYToolStripMenuItem.Click += new System.EventHandler(this.cOPYToolStripMenuItem_Click);
-            // 
-            // pASTEToolStripMenuItem
-            // 
-            this.pASTEToolStripMenuItem.Name = "pASTEToolStripMenuItem";
-            this.pASTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pASTEToolStripMenuItem.Text = "PASTE          crt + V";
-            this.pASTEToolStripMenuItem.Click += new System.EventHandler(this.pASTEToolStripMenuItem_Click);
-            // 
-            // cUTToolStripMenuItem
-            // 
-            this.cUTToolStripMenuItem.Name = "cUTToolStripMenuItem";
-            this.cUTToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cUTToolStripMenuItem.Text = "CUT             crt + X";
-            this.cUTToolStripMenuItem.Click += new System.EventHandler(this.cUTToolStripMenuItem_Click);
-            // 
             // fONTToolStripMenuItem
             // 
             this.fONTToolStripMenuItem.Name = "fONTToolStripMenuItem";
-            this.fONTToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fONTToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.fONTToolStripMenuItem.Text = "FONT";
             this.fONTToolStripMenuItem.Click += new System.EventHandler(this.fONTToolStripMenuItem_Click);
             // 
             // cOLORToolStripMenuItem
             // 
             this.cOLORToolStripMenuItem.Name = "cOLORToolStripMenuItem";
-            this.cOLORToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cOLORToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.cOLORToolStripMenuItem.Text = "COLOR";
             this.cOLORToolStripMenuItem.Click += new System.EventHandler(this.cOLORToolStripMenuItem_Click);
-            // 
-            // sELECTALLToolStripMenuItem
-            // 
-            this.sELECTALLToolStripMenuItem.Name = "sELECTALLToolStripMenuItem";
-            this.sELECTALLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sELECTALLToolStripMenuItem.Text = "SELECT ALL   crt + A";
-            this.sELECTALLToolStripMenuItem.Click += new System.EventHandler(this.sELECTALLToolStripMenuItem_Click);
-            // 
-            // dATETIMEToolStripMenuItem
-            // 
-            this.dATETIMEToolStripMenuItem.Name = "dATETIMEToolStripMenuItem";
-            this.dATETIMEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dATETIMEToolStripMenuItem.Text = "DATE TIME";
-            this.dATETIMEToolStripMenuItem.Click += new System.EventHandler(this.dATETIMEToolStripMenuItem_Click);
             // 
             // richTextBox1
             // 
